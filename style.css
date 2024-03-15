@@ -1,9 +1,26 @@
+:root {
+    --cloneBlue: #336699;
+    --orangeTint: #ffe6e6;
+
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
 .background-image {
     min-height: 50dvh;
     background-image: url(Tubes.png);
     background-size: cover;
     background-position: center;
+}
 
+.bg-orangeTint {
+    background-color: var(--orangeTint);
+}
+
+.bg-cloneBlue {
+    background-color: var(--cloneBlue);
 }
 
 .bg-whiteSmoke {
@@ -14,9 +31,11 @@
     position: relative;
 }
 
-.floating-box {
-    position: absolute;
-    bottom: -1vh;
+@media (min-width: 768px) {
+    .floating-box {
+        position: absolute;
+        bottom: -20vh;
+    }
 }
 
 img {
@@ -26,3 +45,7 @@ img {
 /* .skeleton img {
     height: 25vh;
 } */
+
+.footer-bg {
+    background: rgb(88, 88, 88);
+}

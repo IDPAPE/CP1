@@ -9,115 +9,165 @@
         integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
         defer></script>
 </head>
 
-<body class="debug">
+<body class="">
     <header class="container-fluid">
-        <section class="row bg-primary">
-            <div class="col p-2">
-                <h1>🫙 The Clones Site</h1>
+        <section class="row bg-cloneBlue text-light sticky-top">
+            <div class="col py-3 px-5">
+                <h1>🫙 CloneWorks</h1>
             </div>
         </section>
-    </header>
-
-    <main class="container-fluid">
         <section class="row background-image text-light align-items-center justify-content-around">
             <div class="col-md-3 m-4 p-2 justify-content-center">
-                <h4>Form Heading</h4>
+                <h4>Start Today!</h4>
                 <div class="row bg-white text-dark p-3">
-                    <h3 class="p-1">First Line of Form</h3>
-                    <h3 class="p-1">First Input Box</h3>
-                    <h3 class="p-1">Second Input Box</h3>
-                    <div class="p-1 col-md-5">
-                        left side input box
+                    <input type="text" class="form-control m-1" placeholder="Name">
+                    <input type="text" class="form-control m-1" placeholder="Email">
+                    <div class="p-1 col-md-6">
+                        <input type="text" class="form-control" placeholder="Phone">
                     </div>
-                    <div class=" p-1 col-md-5">
-                        right side input box
+                    <div class=" p-1 col-md-6">
+                        <input type="text" class="form-control" placeholder="Blood Type">
                     </div>
-                    <h3 class="p-1">message box</h3>
+                    <div class="p-1 col-md-6">
+                        <input type="text" class="form-control" placeholder="Gender">
+                    </div>
+                    <div class=" p-1 col-md-6">
+                        <input type="text" class="form-control" placeholder="SSN">
+                    </div>
                     <div class="p-1">
-                        checkbox checkbox message
+                        <input type="checkbox">
+                        <label>I Give CloneWorks access to my medical history</label>
                     </div>
                     <div class="p-1">
-                        submit button
+                        <button>next steps</button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 justify-content-center p-5 bx-5">
+            <div class="col-md-7 justify-content-center p-5 bx-5 d-none d-md-block">
                 <h2>Text Over Image header</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eligendi, nemo fuga,
                     exercitationem atque qui id aperiam possimus adipisci ipsam sunt recusandae dicta voluptas dolorum!
                     Eos reiciendis placeat odio exercitationem?</p>
             </div>
         </section>
+    </header>
 
-        <section class="row bg-primary">
-            <div class="col-5 p-5">
+    <main class="container-fluid">
+        <section class="row bg-cloneBlue text-light">
+            <div class="col-md-5 p-5 order-md-1 order-2">
                 <h1>Some Header here</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt distinctio illum ipsam facere
                     repellat. Inventore, ullam officia consequuntur aspernatur nostrum, labore molestias beatae
                     veritatis iure exercitationem impedit eius blanditiis ipsam!</p>
             </div>
-            <div class="col 7 containing-block">
-                <section class="floating-box p-2 bg-light">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dolores. A sed, recusandae eos
-                        architecto sapiente modi magni. Eaque sit veritatis vel asperiores maxime cum temporibus culpa
-                        placeat ullam consectetur.
-                        Mollitia quasi, molestiae ex maxime, eveniet dignissimos praesentium unde assumenda similique
-                        eligendi temporibus enim architecto magni aperiam consequatur aliquid, deserunt ab voluptate
-                        quam delectus perspiciatis rerum in sit? Voluptatum, tenetur!</p>
+            <div class="col-md-6 containing-block order-md-2 order-1">
+                <section class="floating-box p-4 bg-orangeTint text-black mt-3 container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-1 text-center">
+                            <h1><span class="mdi mdi-plus-outline"></span></h1>
+                        </div>
+                        <div class="col 11">
+                            <h3>We gaurantee a 95% chance of successful procedures!</h3>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-1 text-center">
+                            <h1><span class="mdi mdi-key-outline"></span></h1>
+                        </div>
+                        <div class="col 11">
+                            <h3>Your clone will obey 87% of viable commands!</h3>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-1 text-center">
+                            <h1><span class="mdi mdi-lock-outline"></span></h1>
+                        </div>
+                        <div class="col 11">
+                            <h3>Our genome database repels 98% of hack attempts!</h3>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-1 text-center">
+                            <h1><span class="mdi mdi-cash-multiple"></span></h1>
+                        </div>
+                        <div class="col 11">
+                            <h3>Pay your clone off in 36 easy installments!</h3>
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-1 text-center">
+                            <h1><span class="mdi mdi-script-text-key-outline"></span></h1>
+                        </div>
+                        <div class="col 11">
+                            <h3>You are liable for your clone's behavior!</h3>
+                        </div>
+                    </div>
+                    <!-- <h3>We gaurantee a 95% chance of successful procedures!</h3>
+                    <h3>Your clone will obey 87% of viable commands!</h3>
+                    <h3>Our genome database repels 98% of hack attempts!</h3>
+                    <h3>Pay your clone off in 36 easy installments!</h3>
+                    <h3>You are liable for your clone's behavior!</h3> -->
                 </section>
             </div>
         </section>
 
         <section class="row bg-white align-items-center">
             <div class="col-md-4 p-5">
-                <img src="skeleton-7090995_640.jpg" alt="DNA & skeleton">
+                <img class="rounded" src="skeleton-7090995_640.jpg" alt="DNA & skeleton">
             </div>
             <div class="col-md-8 p-5">
                 <div>
-                    <h1>Skeleton Header</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed officia eum dolorem, aperiam culpa,
-                        provident distinctio, tempore deleniti nisi eaque adipisci quidem ad odit fugit quis ipsa ex
-                        earum aspernatur.
-                        Ducimus iure quos incidunt, nemo aliquam adipisci dolorum dolorem architecto nihil fuga cumque
-                        laudantium rerum praesentium enim obcaecati pariatur. Officiis, magnam. Magni fugit praesentium
-                        sequi dicta maxime, est dolores numquam.</p>
+                    <h1>What do we need?</h1>
+                    <p>Whole-genome sequencing (WGS) is a comprehensive method for analyzing entire genomes. Genomic
+                        information is required in order to move forward with the cloning process, Genomic information
+                        provides us with the blueprint to you. Your Genome makes up all of your characteristics, from
+                        eye color, hair color, height, and everything else. (While Genomic information does play some
+                        role in attitude and personality, much of nurturing your clone's behaviour will be the
+                        responsibility of the customer)
+                    </p>
                     <button>
-                        Boop
+                        <span class="mdi mdi-upload-box-outline"></span> Upload Genome
                     </button>
                 </div>
             </div>
         </section>
 
-        <section class="row bg-light-subtle mx-3 justify-content-around">
-            <div class="col-md-3 order-md-2">
-                <h1> ⭐⭐⭐⭐⭐ </h1>
-                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, amet eveniet! Debitis dolores
+        <section class="row bg-orangeTint justify-content-around p-5">
+            <div class="col-md-3 order-md-2 text-center bg-white p-3 m-3 m-md-0 shadow-lg rounded">
+                <h1 class="text-warning"> <span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span
+                        class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span>
+                </h1>
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, amet eveniet! Debitis dolores
                     non beatae accusantium dignissimos nemo? Rerum ex exercitationem reiciendis quia eos nulla ea in ab
                     qui tempore.</h4>
-                <p>John Pork</p>
+                    <p>John Pork</p>
             </div>
-            <div class="col-md-3 order-md-1 m-2">
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil nobis omnis voluptate
+            <div class="col-md-3 order-md-1 m-3 text-center bg-white p-3 shadow-lg rounded">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nihil nobis omnis voluptate
                     voluptatum incidunt optio quasi, iusto fugiat quo? Rem nobis eos quas, quisquam at minus quam
                     reprehenderit labore?</h4>
-                <p>John Pork</p>
+                    <p>John Pork</p>
             </div>
-            <div class="col-md-3 order-md-3 m-2">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquam ipsum ipsam laudantium,
+            <div class="col-md-3 order-md-3 m-3 text-center bg-white p-3 shadow-lg rounded">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit aliquam ipsum ipsam laudantium,
                     veritatis rerum dignissimos odit architecto ab sapiente voluptatum enim consequuntur quia quae ullam
                     nam incidunt. Ipsa, neque!</h4>
-                <p>John Pork</p>
+                    <p>John Pork</p>
             </div>
         </section>
     </main>
 
     <footer class="container-fluid">
-        <section class="row bg-primary">
-            <div class="col">
+        <section class="row bg-cloneBlue text-light">
+            <div class="col p-5">
                 <h1>Important header</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem libero quos eligendi odio
                     provident inventore hic, odit delectus quas soluta quo non pariatur enim neque, repudiandae a
@@ -125,8 +175,20 @@
             </div>
         </section>
 
-        <section class="row bg-light-subtle">
-            <div class="col">
+        <section class="row bg-orangeTint">
+            <div class="col 4">
+                <a href="">legal information</a>
+            </div>
+            <div class="col 4">
+                asdf
+            </div>
+            <div class="col 4">
+                asdf
+            </div>
+        </section>
+
+        <section class="row footer-bg">
+            <div class="col p-3 text-center">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis incidunt excepturi animi
                     dignissimos esse, corrupti sequi nostrum, quos repellat iusto quas vero voluptas suscipit iure quo
                     magni? Necessitatibus, quam reprehenderit?</p>
