@@ -1,3 +1,28 @@
+.background-image {
+    min-height: 50dvh;
+    background-image: url(Tubes.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
 .bg-whiteSmoke {
     background-color: whitesmoke;
 }
+
+.containing-block {
+    position: relative;
+}
+
+.floating-box {
+    position: absolute;
+    bottom: -1vh;
+}
+
+img {
+    width: 100%;
+}
+
+/* .skeleton img {
+    height: 25vh;
+} */
